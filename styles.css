@@ -1,0 +1,133 @@
+* {
+padding: 0;
+margin: 0;
+font-family: 'Poppins', sans-serif;
+
+}
+
+.img-logo {
+
+width: 80px;
+margin: 35px;
+
+}
+
+.container-centro {
+
+display: flex;
+justify-content: space-between;
+
+}
+
+.container-centro p {
+margin-top: 20px;
+    width: 515px;
+
+}
+
+
+.container-left {
+
+    margin: 100px 150px;
+}
+
+.container-left h1 {
+
+    font-size: 80px;
+}
+
+button {
+width: 120px;
+height: 30px;
+color: white;
+background-color: rgb(2, 69, 11);
+margin-top: 50px;
+border-radius: 100%;
+cursor: pointer;
+border: none;
+
+}
+.copo-verde-grande {
+    filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 90%));
+    margin-right: 100px;
+    margin-top: 180px;
+    height: 515px;
+}
+
+span {
+color: rgb(2, 69, 11);
+text-shadow: #000 2px 3px 2px;
+
+}
+
+
+.div-footer {
+    
+    display: flex;
+    justify-content: center;
+    height: auto;
+    
+}
+
+.botao-copos {
+    width: 60px ;
+    transition: 0.8s;
+    margin: 23px;
+    margin-bottom: 200px;
+    cursor: pointer;
+    
+}
+
+.botao-copos:hover {
+
+    transform: translateY(-15px);
+}
+
+
+.circulo {
+
+    position: absolute;
+    width: 310px;
+    height: 310px;
+    background-color: rgb(2, 69, 11);
+    right: 6%;
+    bottom: 6%;
+    clip-path: circle();
+    z-index: -1;
+}
+
+.circulo2 {
+
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    background-color: rgb(2, 69, 11);
+    right: 22%;
+    bottom: 40%;
+    clip-path: circle();
+    z-index: -1;
+}
+
+.circulo3 {
+
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    background-color: rgb(2, 69, 11);
+    right: 10%;
+    bottom: 65%;
+    clip-path: circle();
+    z-index: -1;
+}
+
+.circulo4 {
+
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    background-color: rgb(2, 69, 11);
+    right: 25%;
+    bottom: 75%;
+    clip-path: circle();
+    z-index: -1;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap" rel="stylesheet">
+    <link rel="website icon" type="png" href="./img/logo Starbucks.png">
+    <title>StarBucks</title>
+
+</head>
+
+
+<body>
+
+    <div class="circulo"></div>
+    <div class="circulo2"></div>
+    <div class="circulo3"></div>
+    <div class="circulo4"></div>
+    <header>
+
+        <img class="img-logo" src="./img/logo Starbucks.png" alt="Logo StarBucks">
+
+    </header>
+
+    <main class="container-centro">
+        <div class="container-left">
+
+            <h1>It's not just Coffee <br> It's <span> Starbucks </span> </h1>
+
+            <p>A Starbucks oferece uma ampla gama de produtos além de café, incluindo bebidas quentes e frias, lanches, pastelarias, chás, smoothies e até mesmo itens de mercearia. Além disso, a Starbucks é conhecida por sua experiência única e acolhedora para os clientes, oferecendo um ambiente confortável para se sentar, trabalhar ou se encontrar com amigos.</p>
+
+            <button>Learn More</button>
+
+        </div>
+
+        <div>
+            <img class="copo-verde-grande" src="./img/copo verde.png" alt="">
+        </div>
+    </main>
+
+    <footer>
+        <div class="div-footer">
+            <img src="./img/copo verde pequeno.png" class="botao-copos"
+                onclick="trocaImagem('./img/copo verde.png'); trocaCor('rgb(2, 69, 11)') ">
+            <img src="./img/copo rosa pequeno.png" class="botao-copos"
+                onclick="trocaImagem('./img/copo rosa.png'); trocaCor('#eb7495')">
+            <img src="./img/copo azul rosa pequeno.png" class="botao-copos"
+                onclick="trocaImagem('./img/copo azul rosa.png'); trocaCor('#d752b1' )">
+        </div>
+
+    </footer>
+
+</body>
+
+
+<script>
+
+    let imagem = document.querySelector(".copo-verde-grande")
+    let circulo = document.querySelector(".circulo")
+    let circulo2 = document.querySelector(".circulo2")
+    let circulo3 = document.querySelector(".circulo3")
+    let circulo4 = document.querySelector(".circulo4")
+
+    function trocaImagem(enderecoImg) {
+        imagem.src = enderecoImg
+
+    }
+
+    function trocaCor(cor) {
+        circulo.style.background = cor
+        circulo2.style.background = cor
+        circulo3.style.background = cor
+        circulo4.style.background = cor
+    }
+
+   
+
+
+</script>
+
+
+</html>
